@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+
+<body>
+    <div class="main">
+        <h1>Weather App</h1>
+        <div class="form-part">
+            <form onsubmit="getTemp()" method="dialog">
+                <input placeholder="Enter a city name here " id="input-box">
+                <button id="submit" type="button" onclick="getTemp()">Search</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div id="show-weather">
+
+
+        </div>
+
+        <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
